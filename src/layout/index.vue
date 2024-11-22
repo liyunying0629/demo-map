@@ -26,11 +26,8 @@ import { RouterLink, RouterView } from 'vue-router'
   position: relative;
 
   .page-left {
-    max-width: 258px;
-    position: fixed;
-    left: 0px;
-    top: 0;
-    bottom: 0;
+    width: 80px;
+    height: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -63,23 +60,11 @@ import { RouterLink, RouterView } from 'vue-router'
     flex: 1;
     height: 100%;
     transition: margin-left 0.28s;
-    margin-left: 264px;
     display: flex;
     flex-direction: column;
 
     .header-box {
-      position: fixed;
-      width: 87.0625%;
-      //210-230
-      left: 260px;
-      top: 0;
-      padding: 0 50px;
-      display: flex;
-      align-items: center;
-      height: 73px;
-      justify-content: space-between;
-      box-sizing: border-box;
-      z-index: 9;
+      padding: 24px;
     }
   }
 }

@@ -3,13 +3,11 @@ export const routerList = [{
   name: '地图',
   path: '/',
   icon: 'home',
-}, {
+},
+{
   id: '2',
-  name: '系统管理',
+  name: '管理',
   path: '/about',
   icon: 'setting',
-  // children: [{
-  //     id: '2-1',
-  //     name: '用户管理',
-  // }]
-}]
+}
+]

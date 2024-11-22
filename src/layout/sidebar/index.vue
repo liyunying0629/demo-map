@@ -9,7 +9,7 @@ const isCollapse = ref(false)
 <template>
   <div class="sidebar">
     <!-- 导航菜单 -->
-    <el-menu :router="true" default-active="2" class="el-menu-vertical-demo" :collapse="isCollapse">
+    <el-menu :router="true" default-active="1" class="el-menu-vertical-demo" :collapse="isCollapse">
       <SideBarItem :routerList="routerList" />
     </el-menu>
 

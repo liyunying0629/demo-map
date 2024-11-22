@@ -3,6 +3,8 @@ import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
 import Layout from './layout/index.vue'
 // import Header from './layout/header.vue'
+import * as THREE from "three";
+console.log(THREE, "THREE");
 </script>
 
 <template>
